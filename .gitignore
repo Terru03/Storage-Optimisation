@@ -1,0 +1,36 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local application state
+config.json
+data/
+reports/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.log
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
